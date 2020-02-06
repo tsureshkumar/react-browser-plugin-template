@@ -1,0 +1,13 @@
+.*.sw?
+node_modules/
+package-lock.json
+bundle.js
+bundle.*
+
+*.orig
+.DS_Store
+tags
+dist/
+dist*/
+
+# this is dynamically updated by server when run in dev mode

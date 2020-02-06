@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "github2jira",
+    "version": "1.0",
+    "description": "Syncs github issues to Jira",
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "options_page": "options.html",
+    "permissions": ["storage", "activeTab", "contextMenus"],
+    "content_security_policy": "script-src 'self' 'unsafe-eval' ; object-src 'self'"
+}
